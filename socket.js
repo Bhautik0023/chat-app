@@ -6,7 +6,7 @@ import { sendPushNotification } from "./utils/notificationService.js";
 export const initializeSocket = (server) => {
   const io = new Server(server, {
     cors: {
-      origin: "https://silver-swan-7014d2.netlify.app/",
+      origin: "https://silver-swan-7014d2.netlify.app",
       credentials: true,
     },
   });

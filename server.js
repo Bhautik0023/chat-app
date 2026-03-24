@@ -15,7 +15,7 @@ const io = initializeSocket(server);
 
 app.use(
   cors({
-    origin: "http://localhost:5173",
+    origin: "https://silver-swan-7014d2.netlify.app/",
     credentials: true,
   }),
 );
@@ -31,7 +31,7 @@ app.get("/", (req, res) => {
   res.send("Hello World!");
 });
 
-const PORT = 3000;
+const PORT = 5000;
 server.listen(PORT, () => {
   console.log(`Server and Socket.IO started on port ${PORT}`);
 });

@@ -15,7 +15,7 @@ const io = initializeSocket(server);
 
 app.use(
   cors({
-    origin: "https://silver-swan-7014d2.netlify.app/",
+    origin: "https://silver-swan-7014d2.netlify.app",
     credentials: true,
   }),
 );
